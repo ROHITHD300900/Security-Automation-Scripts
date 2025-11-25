@@ -1,0 +1,19 @@
+# Security Automation Scripts - Dependencies
+# Python 3.8+ required
+
+# Core Dependencies
+scapy>=2.5.0          # Network packet manipulation
+requests>=2.31.0      # HTTP library
+colorama>=0.4.6       # Terminal colors
+tabulate>=0.9.0       # Table formatting
+rich>=13.0.0          # Beautiful terminal output
+
+# Security Tools
+python-nmap>=0.7.1    # Nmap wrapper
+passlib>=1.7.4        # Password hashing
+cryptography>=41.0.0  # Cryptographic operations
+
+# Utilities
+tqdm>=4.66.0          # Progress bars
+argparse              # Command line arguments
+logging               # Logging utility
